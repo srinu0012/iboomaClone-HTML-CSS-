@@ -1,0 +1,102 @@
+*{margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+}
+body{
+    background: #282828;
+    overflow-x: hidden;
+}
+nav div img{
+    margin-top: 10px;
+}
+nav{
+    background: #2c2e30;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    height: 60px;
+    padding: 0 100px;
+}
+nav .logo{
+    cursor: pointer;
+}
+nav .nav-items{
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 40px;
+    margin-left:450px;
+}
+nav .nav-items a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 30px;
+}
+nav .nav-items a i{
+    color: #368338e1;
+    padding: 5px;
+}
+nav form{
+    display: flex;
+    height: 40px;
+    padding: 2px;
+    background: #1e232b;
+    min-width: 18% !important;
+    border: 1px solid rgba(155, 155, 155, .2);
+    border-radius: 30px;
+}
+nav form .search{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+    background: none;
+}
+nav form button{
+    padding: 0 15px;
+    color: #fff;
+    font-size: 16px;
+    background:#368338e1 ;
+    border: none;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    cursor: pointer;
+}
+nav form button:hover{
+    background: #1f4e21e1;
+}
+.content{
+    margin: 30px;
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    justify-content: space-between;
+    letter-spacing: 10px;
+}
+.content p{
+    margin-top: 30px;
+}
+.content p i{
+    color: green;
+}
+.coulmns{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    
+}
+.container .coulmns img{
+    padding-right: 20px;
+}
+ .container .coulmns div p{
+    color: white;
+}
+.container .coulmns img:hover{
+    scale: 1.1;
+}
